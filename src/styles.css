@@ -4,10 +4,12 @@
     src: url("assets/brandon_med.woff") format("woff");
 }
 
+/*The <i> tag is not included because of Font Awesome icons*/
 *:not(i) {
     font-family: Brandon;
 }
 
+/*This is the style for the spinner that appears before the landing page*/
 .sk-circle {
   margin: 100px auto;
   width: 40px;
@@ -128,14 +130,4 @@
     -webkit-transform: scale(1);
             transform: scale(1);
   }
-}
-
-.uk-grid+.uk-grid
-{
-    margin-top: 0 !important;
-}
-
-.uk-icon-button
-{
-    color: red;
 }

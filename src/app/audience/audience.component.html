@@ -1,12 +1,11 @@
 <div id="addguest" class=" uk-child-width-expand@s uk-text-center uk-padding" uk-grid style="height:100vh;background-image:url('assets/mount.jpg');background-attachment:fixed">
-   
     <div>
         <div class="uk-background-secondary uk-padding seats uk-light" >
             <h2>Selección</h2>
             <ul class="uk-list uk-list-striped publico" style="max-height:315px;overflow-y:auto">
             </ul>
-         <button class="uk-button uk-button-default randomize" (click)="getRandom2()">Random!</button>
-         <a class="uk-button uk-button-default randomize" (click)="endme()" href="#top" uk-scroll>Finalizar</a>
+            <button class="uk-button uk-button-default randomize" (click)="getRandom2()">Random!</button>
+            <a class="uk-button uk-button-default randomize" (click)="endme()" href="#top" uk-scroll>Finalizar</a>
         </div>
     </div>
     <div>
@@ -14,8 +13,7 @@
             <h2>El público</h2>
             <p>Escribe los nombres de quienes conforman la audiencia (uno por línea). Se seleccionará una persona al azar:</p>
             <textarea class="uk-textarea guests" rows="10" style="resize:none;margin-bottom:20px"></textarea>
-              
             <button class="uk-button uk-button-default" (click)="erase2()">Borrar</button>
-            </div>
+        </div>
     </div>
 </div>
